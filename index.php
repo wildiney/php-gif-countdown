@@ -14,11 +14,11 @@ $image = imagecreatefrompng("img/countdown.png");
 $delay = 100;
 
 $font = array(
-    'size'=>19,
+    'size'=>25,
     'angle'=>0,
-    'x-offset'=>12,
+    'x-offset'=>7,
     'y-offset'=>30,
-    'file'=> 'Arial.ttf',
+    'file'=> 'digital-7.ttf',
     'color'=>imagecolorallocate($image, 55,100,130)
 );
 
